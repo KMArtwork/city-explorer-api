@@ -39,16 +39,17 @@ Estimate of time needed to complete: 60m
 
 Start time: 3:14PM
 
-Finish time: _____
+Finish time: 4:51PM
 
-Actual time needed to complete: _____
+Actual time needed to complete: 96m
 
+* Took a small snack break around 4:00, lasted about 10-15m? So ~80m if not including that 
 
 #### Task 03 - Errors
 
 Estimate of time needed to complete: 60m
 
-Start time: 3:05
+Start time: 4:53
 
 Finish time: _____
 
