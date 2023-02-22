@@ -51,6 +51,8 @@ Estimate of time needed to complete: 60m
 
 Start time: 4:53
 
-Finish time: _____
+Finish time: 6:22
 
-Actual time needed to complete: _____
+Actual time needed to complete: 89m
+
+* Spent like 45m-60m helping Sheldon with his Task02 before finishing my Task 03 so probably only took about 15-30m total
