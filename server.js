@@ -37,9 +37,11 @@ app.get('/weather', (request, response) => {
       response.status(200).send(forecastArr);
     } 
     else if(!queryMatch) {
-      response.status(404).send('No results found');
+      response.status(500).send('Server Side Error');
     }
 })
+
+
 
 app.listen(PORT, () => {
   console.log('Server is up');
