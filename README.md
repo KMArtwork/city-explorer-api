@@ -37,7 +37,7 @@ Actual time needed to complete: 8m
 
 Estimate of time needed to complete: 60m
 
-Start time: 3:05
+Start time: 3:14PM
 
 Finish time: _____
 
