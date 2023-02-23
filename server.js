@@ -11,9 +11,12 @@ const WEATHERBIT_ACCESS_KEY = process.env.WEATHERBIT_ACCESS_KEY;
 const MOVIE_API_KEY = process.env.MOVIE_API_KEY;
 
 class Forecast {
-  constructor(date, description) {
+  constructor(date, description, low, high, icon) {
     this.date = date;
     this.description = description;
+    this.low = low;
+    this.high = high;
+    this.icon = icon;
   }
 }
 
@@ -48,7 +51,10 @@ app.get('/weather', async (request, response) => {
         axiosResponse.data.data.forEach(element => {
           proxyResponse.push(new Forecast(
             element.datetime, 
-            `Expect ${element.weather.description} | High of ${element.high_temp} | Low of ${element.low_temp}`));
+            element.weather.description,
+            element.low_temp,
+            element.high_temp, 
+            element.weather.icon));
         });
         response.status(200).send(proxyResponse);
       })
