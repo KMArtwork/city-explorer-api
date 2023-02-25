@@ -2,7 +2,7 @@
 
 **Author**: Kawika Miller
 
-**Version**: 1.0.3 (increment the patch/fix version number if you make more commits past your first submission)
+**Version**: 1.0.4 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview
 This project is my first attempt at creating a server to make HTTP requests to via the city-explorer project
@@ -14,16 +14,24 @@ If running this server locally you will need to define your own `.env` file and 
 Javascript, Express.js, Node.js
 
 ## Change Log
-2023-21-02 : Initialize project
-2023-02-21 : Set up client/server wrrc functionality
-2023-02-22 : Able to make proxy requests from client to server to 3rd party api and send response back to client
-2023-02-23 : Refactor WRRC proxy requests | Separate weather and movie API calls to their own modules and impor them into server.js
+**2023-21-02** : Initialize project
+
+**2023-02-21** : Set up client/server wrrc functionality
+
+**2023-02-22** : Able to make proxy requests from client to server to 3rd party api and send response back to client
+
+**2023-02-23** : Refactor WRRC proxy requests | Separate weather and movie API calls to their own modules and impor them into server.js
+
+**2023-02-24** : Able to cache data from API calls | Will update if it has been an hour or longer since last request
 
 ## Credit and Collaborations
 Ethan Storm: 
   - Lab07 - WRRC Client to Local Server Wireframing
   - Lab08 - WRRC Proxy Requests from Server to 3rd Party API
   - Lab09 - Refactoring WRRC proxy requests to their own modules
+  - Lab10 - Wireframe the create cache / retrieve from cache on request / response process
+
+---
 
 ## Time Estimates
 
@@ -66,7 +74,9 @@ Finish time: 6:22
 Actual time needed to complete: 89m
 
 * Spent like 45m-60m helping Sheldon with his Task02 before finishing my Task 03 so probably only took about 15-30m total
+
 ---
+
 ### Lab08 - Handle Proxy Requests to 3rd Party APIs
 
 ![Lab08 Wireframing](./Wireframing_Lab08.JPG)
@@ -102,7 +112,9 @@ Finish time: 7:05PM
 Actual time needed to complete: 15m
 
 * I followed along during Jacob's demonstration earlier today so this didn't take as long to set up. My weatherbit API calls are still working but my movies api call only works when the server is run locally - gonna have to ask about that tomorrow in class.
+
 ---
+
 ### Lab 09 - Refactoring
 
 ![Lab09 Wireframing](./Wireframing_Lab09.JPG)
@@ -117,3 +129,18 @@ Finish time: 2:07PM
 
 Actual time needed to complete: 12m
 
+---
+
+### Lab 10 - Cache Data on Server
+
+![Lab10 Wireframing](./Wireframing_Lab10.png)
+
+#### **Task-01 Performance**
+
+Estimate of time needed to complete: 60m
+
+Start time: 3:17PM
+
+Finish time: 4:43PM
+
+Actual time needed to complete: 86m
